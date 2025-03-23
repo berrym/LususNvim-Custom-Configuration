@@ -115,7 +115,7 @@ M.mason_ensure_installed = {
     "mesonlsp",
     "shfmt",
     "ruby-lsp",
-    "rubyfmt",
+    "solargraph",
   },
   dap = {
     "python",
@@ -367,6 +367,7 @@ M.custom_conf = function()
   -- utils.colors("catppuccin")
   -- utils.colors("tokyonight")
   -- utils.colors("nightfox")
+  utils.colors("duskfox")
   -- utils.colors("astrotheme")
   -- utils.colors("astromars")
   -- utils.colors("monokai-pro")
